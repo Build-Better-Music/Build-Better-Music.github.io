@@ -11,6 +11,7 @@ $font-scaling: 1.25;
 $border-radius: 1em;
 $card-padding: 2em;
 $standard-border: 2px solid lightgray;
+$pill-side-padding: 1.25em;
 
 * {
 	font-family: $font-stack;
@@ -50,6 +51,36 @@ nav .container {
 	width: $content-width;
 }
 
+nav .container > div {
+	height: 2.5em * $font-scaling;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+nav .left-nav {
+	float: left;
+}
+
+nav .right-nav {
+	float: right;
+	display: inline-block;
+	text-align: right;
+}
+
+nav .right-nav a {
+	@extend %pill;
+	display: inline-block;
+}
+
+nav .right-nav a:last-child:not(.active) {
+	margin-right: -1 * $pill-side-padding;
+}
+
+nav .right-nav a.active {
+	background-color: darken($primary-color, 10%);
+}
+
 nav a {
 	color: white;
 	text-decoration: none;
@@ -72,6 +103,11 @@ nav a {
 	background-color: transparent;
 	color: inherit;
 	box-sizing: border-box;
+}
+
+%pill {
+	border-radius: 1.5em;
+	padding: 0.5em $pill-side-padding;
 }
 
 .card {
@@ -111,8 +147,7 @@ nav a {
 }
 
 %button {
-	border-radius: 1.5em;
-	padding: 0.5em 1.25em;
+	@extend %pill;
 	font-size: 1em * $font-scaling;
 	cursor: pointer;
 	box-sizing: border-box;
@@ -157,7 +192,7 @@ input:focus, textarea {
 	border: $standard-border;
 }
 
-input[type="text"] {
+input[type="text"], input[type="email"] {
 	@extend %textinput;
 }
 

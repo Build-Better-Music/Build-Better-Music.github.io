@@ -14,6 +14,18 @@ nav { background-color: #3C91E6; display: flex; align-items: center; justify-con
 
 nav .container { width: 1000px; }
 
+nav .container > div { height: 3.125em; display: flex; align-items: center; justify-content: center; }
+
+nav .left-nav { float: left; }
+
+nav .right-nav { float: right; display: inline-block; text-align: right; }
+
+nav .right-nav a { display: inline-block; }
+
+nav .right-nav a:last-child:not(.active) { margin-right: -1.25em; }
+
+nav .right-nav a.active { background-color: #1b78d4; }
+
 nav a { color: white; text-decoration: none; }
 
 .main-container { max-width: 100vw; width: calc(1000px + 2 * 2em); margin: 0 auto; }
@@ -21,6 +33,8 @@ nav a { color: white; text-decoration: none; }
 .card, .card-extra-padding, .card-dark, .card-left, .card-right { padding: 2em; margin: 2em; border-radius: 1em; }
 
 .card-dark, .button-dark { border: 2px solid lightgray; background-color: transparent; color: inherit; box-sizing: border-box; }
+
+nav .right-nav a, .button, .button-secondary, .button-highlight, .button-dark { border-radius: 1.5em; padding: 0.5em 1.25em; }
 
 .card, .card-extra-padding { background-color: white; box-shadow: 0px 0px 40px 0px #b4b4b4; float: none; clear: both; }
 
@@ -32,7 +46,7 @@ nav a { color: white; text-decoration: none; }
 
 .card-right { float: right; width: calc(1000px * .33 - 2em / 2); margin-left: 0; box-sizing: border-box; }
 
-.button, .button-secondary, .button-highlight, .button-dark { border-radius: 1.5em; padding: 0.5em 1.25em; font-size: 1.25em; cursor: pointer; box-sizing: border-box; }
+.button, .button-secondary, .button-highlight, .button-dark { font-size: 1.25em; cursor: pointer; box-sizing: border-box; }
 
 .button { background-color: #3C91E6; color: white; border: none; }
 
@@ -42,6 +56,6 @@ nav a { color: white; text-decoration: none; }
 
 input:focus, textarea { outline: none; }
 
-input[type="text"], textarea { max-width: 100%; width: 500px; font-size: 1.25em; border-radius: 0.5em; resize: none; padding: 0.75em; border: 2px solid lightgray; }
+input[type="text"], input[type="email"], textarea { max-width: 100%; width: 500px; font-size: 1.25em; border-radius: 0.5em; resize: none; padding: 0.75em; border: 2px solid lightgray; }
 
 textarea { height: 5em; }

@@ -18,6 +18,6 @@ body { display: flex; justify-content: center; align-items: center; }
 
 .main h1 { font-size: 3em; }
 
-.main input[type="text"] { width: 300px; }
+.main input[type="email"] { width: 300px; }
 
 .image-container { max-height: 370px; max-width: 370px; overflow: visible; display: flex; justify-content: center; align-items: center; margin: 0 auto; z-index: -10; }

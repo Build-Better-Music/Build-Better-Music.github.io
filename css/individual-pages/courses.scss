@@ -1,0 +1,20 @@
+---
+---
+
+// /css/style;
+
+$card-width: 300px;
+
+.card-course {
+	width: $card-width;
+	overflow: hidden;
+	float: left;
+	display: inline-block;
+}
+
+.card-course img {
+	min-width: $card-width;
+	max-height: 250px;
+	margin: -3em;
+	margin-bottom: 0;
+}
