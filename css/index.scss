@@ -1,0 +1,52 @@
+---
+---
+
+$content-width: 1000px;
+$font-stack: 'Source Sans Pro', sans-serif;
+$primary-color: #3C91E6;
+$secondary-color: #93DB2E;
+$highlight-primary: #EDCC15;
+$highlight-secondary: #D11B2A;
+$font-scaling: 1.25;
+$border-radius: 1em;
+$card-padding: 2em;
+$standard-border: 2px solid lightgray;
+
+html {
+	background: linear-gradient(to bottom, $primary-color, darken($primary-color, 30%));
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main {
+	text-align: center;
+}
+
+@for $i from 1 through 6 {
+	.main h#{$i} {
+		color: white;
+	}
+}
+
+.main h1 {
+	font-size: 3em;
+}
+
+.main input[type="text"] {
+	width: 300px;
+}
+
+.image-container {
+	max-height: 370px;
+	max-width: 370px;
+	overflow: visible;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	z-index: -10;
+}

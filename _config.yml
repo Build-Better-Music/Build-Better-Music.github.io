@@ -1,0 +1,4 @@
+markdown: kramdown
+excerpt_separator: <!--end-of-intro-->
+permalink: /Blog/:title
+show_drafts: false

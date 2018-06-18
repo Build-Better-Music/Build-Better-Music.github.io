@@ -1,0 +1,167 @@
+---
+---
+
+$content-width: 1000px;
+$font-stack: 'Source Sans Pro', sans-serif;
+$primary-color: #3C91E6;
+$secondary-color: #93DB2E;
+$highlight-primary: #EDCC15;
+$highlight-secondary: #D11B2A;
+$font-scaling: 1.25;
+$border-radius: 1em;
+$card-padding: 2em;
+$standard-border: 2px solid lightgray;
+
+* {
+	font-family: $font-stack;
+}
+
+html {
+	background: #EEEEEE;
+}
+
+body {
+	margin: 0;
+}
+
+p {
+	font-size: 1em * $font-scaling;
+}
+
+p:first-of-type {
+	margin-top: 0;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+
+nav {
+	background-color: $primary-color;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1em 0;
+	font-size: 0.9em * $font-scaling;
+	color: white;
+}
+
+nav .container {
+	width: $content-width;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+.main-container {
+	max-width: 100vw;
+	width: calc(#{$content-width} + 2 * #{$card-padding});
+	margin: 0 auto;
+}
+
+%card {
+	padding: $card-padding;
+	margin: $card-padding;
+	border-radius: $border-radius;
+}
+
+%dark {
+	border: $standard-border;
+	background-color: transparent;
+	color: inherit;
+	box-sizing: border-box;
+}
+
+.card {
+	@extend %card;
+	background-color: white;
+	box-shadow: 0px 0px 40px 0px rgba(180,180,180,1);
+	float: none;
+	clear: both;
+}
+
+.card-dark {
+	@extend %card;
+	@extend %dark;
+	float: none;
+	clear: both;
+}
+
+.card-extra-padding {
+	@extend .card;
+	padding: $card-padding * 1.5;
+}
+
+.card-left {
+	@extend %card;
+	float: left;
+	width: calc(#{$content-width} * .66 - #{$card-padding} / 2);
+	margin-right: 0;
+	box-sizing: border-box;
+}
+
+.card-right {
+	@extend %card;
+	float: right;
+	width: calc(#{$content-width} * .33 - #{$card-padding} / 2);
+	margin-left: 0;
+	box-sizing: border-box;
+}
+
+%button {
+	border-radius: 1.5em;
+	padding: 0.5em 1.25em;
+	font-size: 1em * $font-scaling;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+.button {
+	@extend %button;
+	background-color: $primary-color;
+	color: white;
+	border: none;
+}
+
+.button-secondary {
+	@extend %button;
+	background-color: $secondary-color;
+	color: white;
+	border: none;
+}
+
+.button-highlight {
+	@extend %button;
+	background-color: $highlight-primary;
+	color: white;
+	border: none;
+}
+
+.button-dark {
+	@extend %dark, %button;
+}
+
+input:focus, textarea {
+	outline: none;
+}
+
+%textinput {
+	max-width: 100%;
+	width: 500px;
+	font-size: 1em * $font-scaling;
+	border-radius: $border-radius / 2;
+	resize: none;
+	padding: 0.75em;
+	border: $standard-border;
+}
+
+input[type="text"] {
+	@extend %textinput;
+}
+
+textarea {
+	@extend %textinput;
+	height: 4em * $font-scaling;
+}
