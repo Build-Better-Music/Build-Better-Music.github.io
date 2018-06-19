@@ -1,0 +1,22 @@
+---
+layout: page
+title: Blog
+---
+
+
+<section class="card card-left">
+	{% for post in site.posts %}
+		<a href="{{ post.url }}">
+			<h1>{{ post.title }}</h1>
+		</a>
+		<p class="postInfo">{{ post.time }} | {{ post.author }}</p>
+		{{ post.excerpt }}
+		<a href="{{ post.url }}" class="continueReading"><input type="button" class="button-dark" value="Continue Reading"></a>
+	{% endfor %}
+</section>
+
+<section class="card-dark card-right">
+	<p>Subscribe</p>
+	<input type="email" placeholder="email">
+	<input type="button" class="button" value="Subscribe">
+</section>

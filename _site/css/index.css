@@ -4,20 +4,20 @@ body { display: flex; justify-content: center; align-items: center; }
 
 .main { text-align: center; }
 
-.main h1 { color: white; }
+.main h1 { color: white; margin: 0.25em; padding: 0; }
 
-.main h2 { color: white; }
+.main h2 { color: white; margin: 0.25em; padding: 0; }
 
-.main h3 { color: white; }
+.main h3 { color: white; margin: 0.25em; padding: 0; }
 
-.main h4 { color: white; }
+.main h4 { color: white; margin: 0.25em; padding: 0; }
 
-.main h5 { color: white; }
+.main h5 { color: white; margin: 0.25em; padding: 0; }
 
-.main h6 { color: white; }
+.main h6 { color: white; margin: 0.25em; padding: 0; }
 
 .main h1 { font-size: 3em; }
 
 .main input[type="email"] { width: 300px; }
 
-.image-container { max-height: 370px; max-width: 370px; overflow: visible; display: flex; justify-content: center; align-items: center; margin: 0 auto; z-index: -10; }
+.image-container { max-height: 400px; max-width: 400px; overflow: visible; display: flex; justify-content: center; align-items: center; margin: 0 auto; z-index: -10; }

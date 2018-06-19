@@ -6,3 +6,4 @@
 - Site
 	- Content
 	- Layout
+	- 404

@@ -1,4 +1,4 @@
 markdown: kramdown
 excerpt_separator: <!--end-of-intro-->
-permalink: /Blog/:title
+permalink: /blog/:title
 show_drafts: false

@@ -29,6 +29,8 @@ body {
 @for $i from 1 through 6 {
 	.main h#{$i} {
 		color: white;
+		margin: 0.25em;
+		padding: 0;
 	}
 }
 
@@ -41,8 +43,8 @@ body {
 }
 
 .image-container {
-	max-height: 370px;
-	max-width: 370px;
+	max-height: 400px;
+	max-width: 400px;
 	overflow: visible;
 	display: flex;
 	justify-content: center;

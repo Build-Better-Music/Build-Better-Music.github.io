@@ -34,6 +34,16 @@ html {
 body {
 	margin: 0;
 }
+$base-font-size: 1em * $font-scaling;
+$heading-scale: 0.5; // amount of px headings grow from h6 to h1
+
+@for $i from 1 through 6 {
+	h#{$i} {
+		font-size: $base-font-size + $heading-scale * (6 - $i);
+		margin-bottom: 0.5em;
+		font-weight: lighter;
+	}
+}
 
 p {
 	font-size: 1em * $font-scaling;
@@ -75,7 +85,7 @@ nav .right-nav a {
 	display: inline-block;
 }
 
-nav .right-nav a:last-child:not(.active) {
+nav .right-nav a:last-child {
 	margin-right: -1 * $pill-side-padding;
 }
 
@@ -127,13 +137,19 @@ nav a {
 %card > img:first-child, %card > section:first-child {
 	margin-top: -$card-padding !important;
 	margin-left: -$card-padding !important;
+	box-sizing: border-box;
 	width: calc(100% + 2 * #{$card-padding});
 }
 
 %card > img:last-child, %card > section:last-child {
 	margin-bottom: -$card-padding !important;
 	margin-left: -$card-padding !important;
+	box-sizing: border-box;
 	width: calc(100% + 2 * #{$card-padding});
+}
+
+%card > section:first-child, %card > section:last-child {
+	padding-right: $card-padding;
 }
 
 %dark {
@@ -192,7 +208,7 @@ nav a {
 }
 
 %card > img + section {
-	margin-top: -1 * $card-padding;;
+	margin-top: -0.5 * $card-padding;;
 }
 
 %card > section + section {
@@ -270,6 +286,7 @@ input:focus, textarea {
 	padding: 0.75em;
 	margin-bottom: 1em;
 	border: $standard-border;
+	box-sizing: border-box;
 }
 
 input[type="text"], input[type="email"] {

@@ -5,12 +5,14 @@ layout: default
 <nav>
 	<div class="container">
 		<div class="left-nav">
-			<a href="#"><img src="/assets/branding/logo-white.svg"></a>
+			<a href="/"><img src="/assets/branding/logo-white.svg"></a>
 		</div>
+		{% assign url = page.url | split: '/' %}
+		{% assign link = url[1] | prepend: '/' | append: '/' | downcase%}
 		<div class="right-nav">
-			<a href="/tools/" class="active">Tools</a>
-			<a href="#">Blog</a>
-			<a href="/about/">About</a>
+			<a href="/tools/" {% if link == '/tools/' %} class="active" {% endif %}>Tools</a>
+			<a href="/blog/" {% if link == '/blog/' %} class="active" {% endif %}>Blog</a>
+			<a href="/about/" {% if link == '/about/' %} class="active" {% endif %}>About</a>
 		</div>
 	</div>
 </nav>

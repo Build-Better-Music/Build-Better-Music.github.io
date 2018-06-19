@@ -4,6 +4,18 @@ html { background: #EEEEEE; }
 
 body { margin: 0; }
 
+h1 { font-size: 3.75em; margin-bottom: 0.5em; font-weight: lighter; }
+
+h2 { font-size: 3.25em; margin-bottom: 0.5em; font-weight: lighter; }
+
+h3 { font-size: 2.75em; margin-bottom: 0.5em; font-weight: lighter; }
+
+h4 { font-size: 2.25em; margin-bottom: 0.5em; font-weight: lighter; }
+
+h5 { font-size: 1.75em; margin-bottom: 0.5em; font-weight: lighter; }
+
+h6 { font-size: 1.25em; margin-bottom: 0.5em; font-weight: lighter; }
+
 p { font-size: 1.25em; }
 
 nav { background-color: #3C91E6; display: flex; align-items: center; justify-content: center; padding: 1em 0; font-size: 1.125em; color: white; }
@@ -18,7 +30,7 @@ nav .right-nav { float: right; display: inline-block; text-align: right; }
 
 nav .right-nav a { display: inline-block; }
 
-nav .right-nav a:last-child:not(.active) { margin-right: -1.25em; }
+nav .right-nav a:last-child { margin-right: -1.25em; }
 
 nav .right-nav a.active { background-color: #1b78d4; }
 
@@ -38,9 +50,11 @@ nav a { color: white; text-decoration: none; }
 
 .card :last-child, .card-extra-padding :last-child, .card-dark :last-child, .card-left :last-child, .card-right :last-child { margin-bottom: 0 !important; }
 
-.card > img:first-child, .card-extra-padding > img:first-child, .card-dark > img:first-child, .card-left > img:first-child, .card-right > img:first-child, .card > section:first-child, .card-extra-padding > section:first-child, .card-dark > section:first-child, .card-left > section:first-child, .card-right > section:first-child { margin-top: -2em !important; margin-left: -2em !important; width: calc(100% + 2 * 2em); }
+.card > img:first-child, .card-extra-padding > img:first-child, .card-dark > img:first-child, .card-left > img:first-child, .card-right > img:first-child, .card > section:first-child, .card-extra-padding > section:first-child, .card-dark > section:first-child, .card-left > section:first-child, .card-right > section:first-child { margin-top: -2em !important; margin-left: -2em !important; box-sizing: border-box; width: calc(100% + 2 * 2em); }
 
-.card > img:last-child, .card-extra-padding > img:last-child, .card-dark > img:last-child, .card-left > img:last-child, .card-right > img:last-child, .card > section:last-child, .card-extra-padding > section:last-child, .card-dark > section:last-child, .card-left > section:last-child, .card-right > section:last-child { margin-bottom: -2em !important; margin-left: -2em !important; width: calc(100% + 2 * 2em); }
+.card > img:last-child, .card-extra-padding > img:last-child, .card-dark > img:last-child, .card-left > img:last-child, .card-right > img:last-child, .card > section:last-child, .card-extra-padding > section:last-child, .card-dark > section:last-child, .card-left > section:last-child, .card-right > section:last-child { margin-bottom: -2em !important; margin-left: -2em !important; box-sizing: border-box; width: calc(100% + 2 * 2em); }
+
+.card > section:first-child, .card-extra-padding > section:first-child, .card-dark > section:first-child, .card-left > section:first-child, .card-right > section:first-child, .card > section:last-child, .card-extra-padding > section:last-child, .card-dark > section:last-child, .card-left > section:last-child, .card-right > section:last-child { padding-right: 2em; }
 
 .card-dark, .button-dark { border: 2px solid lightgray; background-color: transparent; color: inherit; box-sizing: border-box; }
 
@@ -58,7 +72,7 @@ nav .right-nav a, .button, .button-secondary, .button-highlight, .button-dark { 
 
 .card > section, .card-extra-padding > section, .card-dark > section, .card-left > section, .card-right > section { margin: 4em -2em; padding: 8em 2em; }
 
-.card > img + section, .card-extra-padding > img + section, .card-dark > img + section, .card-left > img + section, .card-right > img + section { margin-top: -2em; }
+.card > img + section, .card-extra-padding > img + section, .card-dark > img + section, .card-left > img + section, .card-right > img + section { margin-top: -1em; }
 
 .card > section + section, .card-extra-padding > section + section, .card-dark > section + section, .card-left > section + section, .card-right > section + section { margin-top: -4em; }
 
@@ -82,6 +96,6 @@ nav .right-nav a, .button, .button-secondary, .button-highlight, .button-dark { 
 
 input:focus, textarea { outline: none; }
 
-input[type="text"], input[type="email"], textarea { max-width: 100%; width: 500px; font-size: 1.25em; border-radius: 0.5em; resize: none; padding: 0.75em; margin-bottom: 1em; border: 2px solid lightgray; }
+input[type="text"], input[type="email"], textarea { max-width: 100%; width: 500px; font-size: 1.25em; border-radius: 0.5em; resize: none; padding: 0.75em; margin-bottom: 1em; border: 2px solid lightgray; box-sizing: border-box; }
 
 textarea { height: 5em; }
