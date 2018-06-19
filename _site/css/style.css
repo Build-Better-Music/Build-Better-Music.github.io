@@ -6,10 +6,6 @@ body { margin: 0; }
 
 p { font-size: 1.25em; }
 
-p:first-of-type { margin-top: 0; }
-
-p:last-child { margin-bottom: 0; }
-
 nav { background-color: #3C91E6; display: flex; align-items: center; justify-content: center; padding: 1em 0; font-size: 1.125em; color: white; }
 
 nav .container { width: 1000px; }
@@ -28,9 +24,23 @@ nav .right-nav a.active { background-color: #1b78d4; }
 
 nav a { color: white; text-decoration: none; }
 
+.footer { text-align: center; }
+
+.footer a { color: inherit; text-decoration: none; padding: 0 0.75em; border-right: 2px solid lightgray; }
+
+.footer a:last-of-type { border: none; }
+
 .main-container { max-width: 100vw; width: calc(1000px + 2 * 2em); margin: 0 auto; }
 
-.card, .card-extra-padding, .card-dark, .card-left, .card-right { padding: 2em; margin: 2em; border-radius: 1em; }
+.card, .card-extra-padding, .card-dark, .card-left, .card-right { padding: 2em; margin: 2em; border-radius: 1em; overflow: hidden; }
+
+.card :first-child, .card-extra-padding :first-child, .card-dark :first-child, .card-left :first-child, .card-right :first-child { margin-top: 0 !important; }
+
+.card :last-child, .card-extra-padding :last-child, .card-dark :last-child, .card-left :last-child, .card-right :last-child { margin-bottom: 0 !important; }
+
+.card > img:first-child, .card-extra-padding > img:first-child, .card-dark > img:first-child, .card-left > img:first-child, .card-right > img:first-child, .card > section:first-child, .card-extra-padding > section:first-child, .card-dark > section:first-child, .card-left > section:first-child, .card-right > section:first-child { margin-top: -2em !important; margin-left: -2em !important; width: calc(100% + 2 * 2em); }
+
+.card > img:last-child, .card-extra-padding > img:last-child, .card-dark > img:last-child, .card-left > img:last-child, .card-right > img:last-child, .card > section:last-child, .card-extra-padding > section:last-child, .card-dark > section:last-child, .card-left > section:last-child, .card-right > section:last-child { margin-bottom: -2em !important; margin-left: -2em !important; width: calc(100% + 2 * 2em); }
 
 .card-dark, .button-dark { border: 2px solid lightgray; background-color: transparent; color: inherit; box-sizing: border-box; }
 
@@ -42,20 +52,36 @@ nav .right-nav a, .button, .button-secondary, .button-highlight, .button-dark { 
 
 .card-extra-padding { padding: 3em; }
 
-.card-left { float: left; width: calc(1000px * .66 - 2em / 2); margin-right: 0; box-sizing: border-box; }
+.card-left { float: left; clear: none; width: calc(1000px * .66 - 2em / 2); margin-right: 0; box-sizing: border-box; }
 
-.card-right { float: right; width: calc(1000px * .33 - 2em / 2); margin-left: 0; box-sizing: border-box; }
+.card-right { float: right; clear: none; width: calc(1000px * .34 - 2em / 2); margin-left: 0; box-sizing: border-box; }
 
-.button, .button-secondary, .button-highlight, .button-dark { font-size: 1.25em; cursor: pointer; box-sizing: border-box; }
+.card > section, .card-extra-padding > section, .card-dark > section, .card-left > section, .card-right > section { margin: 4em -2em; padding: 8em 2em; }
 
-.button { background-color: #3C91E6; color: white; border: none; }
+.card > img + section, .card-extra-padding > img + section, .card-dark > img + section, .card-left > img + section, .card-right > img + section { margin-top: -2em; }
 
-.button-secondary { background-color: #93DB2E; color: white; border: none; }
+.card > section + section, .card-extra-padding > section + section, .card-dark > section + section, .card-left > section + section, .card-right > section + section { margin-top: -4em; }
 
-.button-highlight { background-color: #EDCC15; color: white; border: none; }
+.section-transparent { background-color: transparent; color: inherit; }
+
+.section-primary-color { background-color: #3C91E6; color: #ffffff; }
+
+.section-secondary-color { background-color: #93DB2E; color: #ffffff; }
+
+.section-highlight-primary { background-color: #EDCC15; color: #000000; }
+
+.section-highlight-secondary { background-color: #D11B2A; color: #ffffff; }
+
+.button, .button-secondary, .button-highlight, .button-dark { font-size: 1.25em; cursor: pointer; box-sizing: border-box; margin-bottom: 1em; }
+
+.button { background-color: #3C91E6; color: #ffffff; border: none; }
+
+.button-secondary { background-color: #93DB2E; color: #ffffff; border: none; }
+
+.button-highlight { background-color: #EDCC15; color: #000000; border: none; }
 
 input:focus, textarea { outline: none; }
 
-input[type="text"], input[type="email"], textarea { max-width: 100%; width: 500px; font-size: 1.25em; border-radius: 0.5em; resize: none; padding: 0.75em; border: 2px solid lightgray; }
+input[type="text"], input[type="email"], textarea { max-width: 100%; width: 500px; font-size: 1.25em; border-radius: 0.5em; resize: none; padding: 0.75em; margin-bottom: 1em; border: 2px solid lightgray; }
 
 textarea { height: 5em; }

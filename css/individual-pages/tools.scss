@@ -5,16 +5,11 @@
 
 $card-width: 300px;
 
-.card-course {
+.card-tool {
 	width: $card-width;
 	overflow: hidden;
 	float: left;
+	clear: none;
 	display: inline-block;
-}
-
-.card-course img {
-	min-width: $card-width;
-	max-height: 250px;
-	margin: -3em;
-	margin-bottom: 0;
+	text-align: left;
 }

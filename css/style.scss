@@ -13,6 +13,16 @@ $card-padding: 2em;
 $standard-border: 2px solid lightgray;
 $pill-side-padding: 1.25em;
 
+@function set-text-color($color) {
+	@if $color == transparent {
+		@return inherit;
+	} @else if (saturation($color) > 80) {
+		@return #000000; // Lighter backgorund, return dark color
+	} @else {
+		@return #ffffff; // Darker background, return light color
+	}
+}
+
 * {
 	font-family: $font-stack;
 }
@@ -27,14 +37,6 @@ body {
 
 p {
 	font-size: 1em * $font-scaling;
-}
-
-p:first-of-type {
-	margin-top: 0;
-}
-
-p:last-child {
-	margin-bottom: 0;
 }
 
 nav {
@@ -86,6 +88,21 @@ nav a {
 	text-decoration: none;
 }
 
+.footer {
+	text-align: center;
+}
+
+.footer a {
+	color: inherit;
+	text-decoration: none;
+	padding: 0 0.75em;
+	border-right: $standard-border;
+}
+
+.footer a:last-of-type {
+	border: none;
+}
+
 .main-container {
 	max-width: 100vw;
 	width: calc(#{$content-width} + 2 * #{$card-padding});
@@ -96,12 +113,33 @@ nav a {
 	padding: $card-padding;
 	margin: $card-padding;
 	border-radius: $border-radius;
+	overflow: hidden;
+}
+
+%card :first-child {
+	margin-top: 0 !important;
+}
+
+%card :last-child {
+	margin-bottom: 0 !important;
+}
+
+%card > img:first-child, %card > section:first-child {
+	margin-top: -$card-padding !important;
+	margin-left: -$card-padding !important;
+	width: calc(100% + 2 * #{$card-padding});
+}
+
+%card > img:last-child, %card > section:last-child {
+	margin-bottom: -$card-padding !important;
+	margin-left: -$card-padding !important;
+	width: calc(100% + 2 * #{$card-padding});
 }
 
 %dark {
 	border: $standard-border;
 	background-color: transparent;
-	color: inherit;
+	color: set-text-color(transparent);
 	box-sizing: border-box;
 }
 
@@ -133,6 +171,7 @@ nav a {
 .card-left {
 	@extend %card;
 	float: left;
+	clear: none;
 	width: calc(#{$content-width} * .66 - #{$card-padding} / 2);
 	margin-right: 0;
 	box-sizing: border-box;
@@ -141,9 +180,48 @@ nav a {
 .card-right {
 	@extend %card;
 	float: right;
-	width: calc(#{$content-width} * .33 - #{$card-padding} / 2);
+	clear: none;
+	width: calc(#{$content-width} * .34 - #{$card-padding} / 2);
 	margin-left: 0;
 	box-sizing: border-box;
+}
+
+%card > section {
+	margin: 2 * $card-padding -1 * $card-padding;
+	padding: 4 * $card-padding $card-padding;
+}
+
+%card > img + section {
+	margin-top: -1 * $card-padding;;
+}
+
+%card > section + section {
+	margin-top: -2 * $card-padding;;
+}
+
+.section-transparent {
+	background-color: transparent;
+	color: set-text-color(transparent);
+}
+
+.section-primary-color {
+	background-color: $primary-color;
+	color: set-text-color($primary-color);
+}
+
+.section-secondary-color {
+	background-color: $secondary-color;
+	color: set-text-color($secondary-color);
+}
+
+.section-highlight-primary {
+	background-color: $highlight-primary;
+	color: set-text-color($highlight-primary);
+}
+
+.section-highlight-secondary {
+	background-color: $highlight-secondary;
+	color: set-text-color($highlight-secondary);
 }
 
 %button {
@@ -151,26 +229,27 @@ nav a {
 	font-size: 1em * $font-scaling;
 	cursor: pointer;
 	box-sizing: border-box;
+	margin-bottom: 1em;
 }
 
 .button {
 	@extend %button;
 	background-color: $primary-color;
-	color: white;
+	color: set-text-color($primary-color);
 	border: none;
 }
 
 .button-secondary {
 	@extend %button;
 	background-color: $secondary-color;
-	color: white;
+	color: set-text-color($secondary-color);
 	border: none;
 }
 
 .button-highlight {
 	@extend %button;
 	background-color: $highlight-primary;
-	color: white;
+	color: set-text-color($highlight-primary);
 	border: none;
 }
 
@@ -189,6 +268,7 @@ input:focus, textarea {
 	border-radius: $border-radius / 2;
 	resize: none;
 	padding: 0.75em;
+	margin-bottom: 1em;
 	border: $standard-border;
 }
 
