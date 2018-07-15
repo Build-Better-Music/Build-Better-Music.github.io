@@ -1,8 +1,19 @@
 ---
 layout: page
+comments: true
 ---
 
-<section class="card">
+<section class="card card">
+	<img src="{{ page.image }}" alt="{{ page.title }}">
 	<h1>{{ page.title }}</h1>
+	<p class="postInfo">{{ page.time }} | {{ page.author }}</p>
 	{{ content }}
 </section>
+
+{% assign pdfName = page.title | downcase | remove: " " | append: ".pdf" %}
+
+{% include subscribe.html pdf=pdfName %}
+
+{% include disqus.html %}
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b4b6d15787eb401"></script>

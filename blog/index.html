@@ -3,20 +3,14 @@ layout: page
 title: Blog
 ---
 
-
-<section class="card card-left">
-	{% for post in site.posts %}
-		<a href="{{ post.url }}">
-			<h1>{{ post.title }}</h1>
-		</a>
+{% for post in site.posts %}
+	<section class="card card-left">
+		<img src="{{ post.image }}" alt="{{ post.title }}">
+		<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 		<p class="postInfo">{{ post.time }} | {{ post.author }}</p>
 		{{ post.excerpt }}
-		<a href="{{ post.url }}" class="continueReading"><input type="button" class="button-dark" value="Continue Reading"></a>
-	{% endfor %}
-</section>
+		<form action="{{ post.url }}" class="continueReading"><input type="submit" class="button-dark" value="Continue Reading"></form>
+	</section>
+{% endfor %}
 
-<section class="card-dark card-right">
-	<p>Subscribe</p>
-	<input type="email" placeholder="email">
-	<input type="button" class="button" value="Subscribe">
-</section>
+{% include smallSubscribe.html %}
