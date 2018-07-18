@@ -1,23 +1,15 @@
-html { background: linear-gradient(to bottom, #3C91E6, #104579); }
+nav { z-index: 1; position: fixed; width: 100vw; top: 0; }
 
-body { display: flex; justify-content: center; align-items: center; }
+.home-card { min-height: 100vh; min-width: 100vw; background-image: url("/assets/home/background.svg"), linear-gradient(to bottom, #3C91E6 calc(3.5em + 2em), #104579); background-size: 100%; background-repeat: repeat-y; position: relative; position: absolute; top: 0; left: 0; z-index: -1; }
 
-.main { text-align: center; }
+.home-card .container { position: absolute; text-align: center; left: 50%; top: 50%; transform: translate(-50%, -50%); color: white; }
 
-.main h1 { color: white; margin: 0.25em; padding: 0; }
+.home-card .container h1 { margin-bottom: 0; }
 
-.main h2 { color: white; margin: 0.25em; padding: 0; }
+.home-card .container h5 { margin-top: 0; }
 
-.main h3 { color: white; margin: 0.25em; padding: 0; }
+.spacer { margin-top: calc(100vh + 2em); }
 
-.main h4 { color: white; margin: 0.25em; padding: 0; }
+ul { list-style-image: url("/assets/graphics/checkmark.svg"); }
 
-.main h5 { color: white; margin: 0.25em; padding: 0; }
-
-.main h6 { color: white; margin: 0.25em; padding: 0; }
-
-.main h1 { font-size: 3em; }
-
-.main input[type="email"] { width: 300px; }
-
-.image-container { max-height: 400px; max-width: 400px; overflow: visible; display: flex; justify-content: center; align-items: center; margin: 0 auto; z-index: -10; }
+.get-started { text-align: center; }

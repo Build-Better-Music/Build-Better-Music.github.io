@@ -2,3 +2,5 @@ markdown: kramdown
 excerpt_separator: <!--end-of-intro-->
 permalink: /blog/:title
 show_drafts: false
+plugins:
+- jekyll-redirect-from

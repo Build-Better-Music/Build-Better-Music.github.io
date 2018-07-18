@@ -3,12 +3,16 @@ layout: page
 comments: true
 ---
 
-<section class="card card">
+<section class="card card-left">
 	<img src="{{ page.image }}" alt="{{ page.title }}">
 	<h1>{{ page.title }}</h1>
 	<p class="postInfo">{{ page.time }} | {{ page.author }}</p>
 	{{ content }}
 </section>
+
+{% include author.html name=page.author %}
+
+{% include smallSubscribe.html %}
 
 {% assign pdfName = page.title | downcase | remove: " " | append: ".pdf" %}
 

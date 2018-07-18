@@ -4,8 +4,8 @@
 $content-width: 1000px;
 $font-stack: 'Source Sans Pro', sans-serif;
 $primary-color: #3C91E6;
-$secondary-color: #93DB2E;
-$highlight-primary: #EDCC15;
+$secondary-color: #6ebc00;
+$highlight-primary: #FFBF00;
 $highlight-secondary: #D11B2A;
 $font-scaling: 1.25;
 $border-radius: 1em;
@@ -16,7 +16,7 @@ $pill-side-padding: 1.25em;
 @function set-text-color($color) {
 	@if $color == transparent {
 		@return inherit;
-	} @else if (saturation($color) > 80) {
+	} @else if (lightness($color) > 60) {
 		@return #000000; // Lighter backgorund, return dark color
 	} @else {
 		@return #ffffff; // Darker background, return light color
@@ -34,6 +34,7 @@ html {
 body {
 	margin: 0;
 }
+
 $base-font-size: 1em * $font-scaling;
 $heading-scale: 0.5; // amount of px headings grow from h6 to h1
 
@@ -50,7 +51,7 @@ $heading-scale: 0.5; // amount of px headings grow from h6 to h1
 	}
 }
 
-p {
+p, ul, ol {
 	font-size: 1em * $font-scaling;
 }
 
@@ -129,6 +130,7 @@ nav a {
 	margin: $card-padding;
 	border-radius: $border-radius;
 	overflow: hidden;
+	position: relative;
 }
 
 %card :first-child {
@@ -147,7 +149,7 @@ nav a {
 }
 
 %card > img:last-child, %card > section:last-child {
-	margin-bottom: -$card-padding !important;
+	margin-bottom: calc(#{-$card-padding} - 0.25em) !important;
 	margin-left: -$card-padding !important;
 	box-sizing: border-box;
 	width: calc(100% + 2 * #{$card-padding});
@@ -155,6 +157,41 @@ nav a {
 
 %card > section:first-child, %card > section:last-child {
 	padding-right: $card-padding;
+}
+
+%card.image-right, %card.image-left {
+	display: flex;
+	overflow: hidden;
+}
+
+%card.image-right {
+	flex-direction: row-reverse;
+}
+
+%card.image-right .content-container, %card.image-left .content-container {
+	flex: 1;
+}
+
+%card.image-right > .image-container, %card.image-left > .image-container {
+	margin: -$card-padding !important;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: $card-padding;
+	max-width: 33%;
+	flex: 1;
+}
+
+%card.image-left > .image-container {
+	margin-right: $card-padding !important;
+}
+
+%card.image-right > .image-container {
+	margin-left: $card-padding !important;
+}
+
+%card.image-right > .image-container img, %card.image-left > .image-container img {
+	width: 100%;
 }
 
 %dark {
@@ -303,10 +340,133 @@ textarea {
 	height: 4em * $font-scaling;
 }
 
+label {
+	font-size: 1em * $font-scaling;
+}
+
+.checkbox {
+	padding-bottom: 1em;
+}
+
+.checkbox input[type="checkbox"] {
+	opacity: 0;
+}
+
+.checkbox label {
+	vertical-align: text-bottom;
+	position: relative;
+	padding-left: 1.75em;
+}
+
+.checkbox input[type="checkbox"]:enabled + label {
+	cursor: pointer;
+}
+
+.checkbox label::before,
+.checkbox label::after {
+	position: absolute;
+}
+
+.checkbox label::before{
+	content: "";
+	display: inline-block;
+	height: 1em * $font-scaling;
+	width: 1em * $font-scaling;
+	background-color: lightgray;
+	vertical-align: text-bottom;
+	box-sizing: border-box;
+	left: 0;
+}
+
+.checkbox label::after {
+	content: "";
+	display: inline-block;
+	height: calc(1em * #{$font-scaling} / 4);
+	width: calc(1em * #{$font-scaling} / 2);
+	border-left: 2px solid;
+	border-bottom: 2px solid;
+	border-color: set-text-color($primary-color);
+	transform: rotate(-45deg);
+	left: calc(1em * #{$font-scaling} / 4.5);
+	top: calc(1em * #{$font-scaling} / 4);
+}
+
+/*Hide the checkmark by default*/
+.checkbox input[type="checkbox"] + label::after {
+	content: none;
+}
+/*Unhide the checkmark on the checked state*/
+.checkbox input[type="checkbox"]:checked + label::after {
+	content: "";
+}
+
+.checkbox input[type="checkbox"]:checked + label::before {
+	background-color: $primary-color;
+}
+
+.checkbox input[type="checkbox"]:focus + label::before {
+	outline: none;
+}
+
+.checkbox.right-answer label::after {
+	content: "";
+	height: auto;
+	width: auto;
+	border: none;
+	transform: none;
+	left: calc(1em * #{$font-scaling} / 6);
+	top: 0;
+	color: set-text-color($secondary-color);
+}
+
+.checkbox.right-answer input[type="checkbox"]:checked + label::after {
+	content: "✔";
+}
+
+.checkbox.right-answer input[type="checkbox"]:checked + label::before {
+	background-color: $secondary-color;
+}
+
+.checkbox.wrong-answer {
+	text-decoration: line-through;
+}
+
+.checkbox.wrong-answer label::after {
+	content: "";
+	height: auto;
+	width: auto;
+	border: none;
+	transform: none;
+	left: calc(1em * #{$font-scaling} / 4);
+	top: 0;
+	color: set-text-color($highlight-secondary);
+}
+
+.checkbox.wrong-answer input[type="checkbox"]:checked + label::after {
+	content: "✗";
+}
+
+.checkbox.wrong-answer input[type="checkbox"]:checked + label::before {
+	background-color: $highlight-secondary;
+}
+
 .center-image {
 	text-align: center;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 100%;
+}
+
+.quiz {
+	border-top: $standard-border;
+	border-bottom: $standard-border;
+	padding: $card-padding 0;
+}
+
+blockquote {
+	color: gray;
+	border-left: $standard-border;
+	margin-left: 0;
+	padding-left: $card-padding;
 }

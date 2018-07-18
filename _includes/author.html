@@ -1,0 +1,18 @@
+{% for author in site.data.authors %}
+	{% if author.name == include.name %}
+		{% assign authorName = author.name | downcase | remove: " " %}
+		<link rel="stylesheet" href="/css/author.css">
+		<section class="card card-right">
+			<img src="/assets/authors/{{ authorName }}.jpg" alt="">
+			<p class="author-name">About {{ author.name }}</p>
+			<p>{{ author.bio }}</p>
+			<div class="social-container">
+				{% for link in author.links %}
+					<a class="social-link" href="{{ link.url }}">
+						<img class="social" src="/assets/social/{{ link.name }}.svg" alt="{{ link.name }}">
+					</a>
+				{% endfor %}
+			</div>
+		</section>
+	{% endif %}
+{% endfor %}

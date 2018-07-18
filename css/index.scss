@@ -1,54 +1,53 @@
 ---
 ---
 
-$content-width: 1000px;
-$font-stack: 'Source Sans Pro', sans-serif;
-$primary-color: #3C91E6;
-$secondary-color: #93DB2E;
-$highlight-primary: #EDCC15;
-$highlight-secondary: #D11B2A;
-$font-scaling: 1.25;
-$border-radius: 1em;
-$card-padding: 2em;
-$standard-border: 2px solid lightgray;
+$header-height: 3.5em;
 
-html {
-	background: linear-gradient(to bottom, $primary-color, darken($primary-color, 30%));
+nav {
+	z-index: 1;
+	position: fixed;
+	width: 100vw;
+	top: 0;
 }
 
-body {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.home-card {
+	min-height: 100vh;
+	min-width: 100vw;
+	background-image: url("/assets/home/background.svg"), linear-gradient(to bottom, #3C91E6 calc(#{$header-height} + 2em), #104579);
+	background-size: 100%;
+	background-repeat: repeat-y;
+	position: relative;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
 }
 
-.main {
+.home-card .container {
+	position: absolute;
 	text-align: center;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
 }
 
-@for $i from 1 through 6 {
-	.main h#{$i} {
-		color: white;
-		margin: 0.25em;
-		padding: 0;
-	}
+.home-card .container h1 {
+	margin-bottom: 0;
 }
 
-.main h1 {
-	font-size: 3em;
+.home-card .container h5 {
+	margin-top: 0;
 }
 
-.main input[type="email"] {
-	width: 300px;
+.spacer {
+	margin-top: calc(100vh + 2em);
 }
 
-.image-container {
-	max-height: 400px;
-	max-width: 400px;
-	overflow: visible;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin: 0 auto;
-	z-index: -10;
+ul {
+	list-style-image: url("/assets/graphics/checkmark.svg");
+}
+
+.get-started {
+	text-align: center;
 }

@@ -1,0 +1,15 @@
+<script src="/js/quiz.js"></script>
+
+<div class="quiz" id="{{ include.quizid }}" data-answer="{{ include.answer }}">
+	<p class="question">{{ include.question }}</p>
+
+	{% assign i = 0 %}
+	{% assign options = include.options | split: " | " %}
+	{% for option in options %}
+		{% assign i = i | plus: 1 %}
+		<div class="checkbox">
+			<input type="checkbox" class="option" id="{{ include.quizid }}{{ i }}"><label class="optionlabel" for="{{ include.quizid }}{{ i }}">{{ option }}</label>
+		</div>
+	{% endfor %}
+	<div class="answer-explanation" style="display:none;"><p>{{ include.explanation }}</p></div>
+</div>

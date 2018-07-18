@@ -1,24 +1,52 @@
 ---
+layout: page
+redirect_from: "/404.html"
 ---
 
-<link rel='stylesheet' type='text/css' href='/css/style.css'>
 <link rel='stylesheet' type='text/css' href='/css/index.css'>
-<title>Build Better Music</title>
 
-<section class="main">
-	<div class="container"></div>
-	<h1>Build Better Music</h1>
-	<div class="image-container">
-		<img src="assets/home/graphic.svg">
+<section class="home-card">
+	<div class="container">
+		<h1>You can learn music.</h1>
+		<h5>For Free. For Everyone. Forever.</h5>
+		<a href="/blog/"><input type="button" class="button-secondary" value="Start Now"></a>
 	</div>
-	<h4>Coming soon</h4>
-	<form action="https://mazukmusic.us15.list-manage.com/subscribe/post?u=b79c6d20fe200c0dd3b7ad087&amp;id=a8105bdd40" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-		<div id="mc_embed_signup_scroll">
-			<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-			<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-			<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b79c6d20fe200c0dd3b7ad087_a8105bdd40" tabindex="-1" value=""></div>
-			<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button-secondary">
-		</div>
-	</form>
-	<h6>Get notified when things happen</h6>
 </section>
+
+<div class="spacer"></div>
+
+<section class="card image-left">
+	<div class="image-container section-highlight-primary">
+		<img src="/assets/graphics/penOnPaper.svg" alt="Music Composition Graphic">
+	</div>
+	<div class="content-container">
+		<h3>The best way to learn music composition online</h3>
+		<ul>
+			<li><b>Interactivity</b>: Anyway that we can make learning interactive, we do.</li>
+			<li><b>Composer Focused</b>: We focus on compositional techniques, not theory or analysis. Everything is meant to help you write.</li>
+			<li><b>Free</b>: Absolutely free, forever.</li>
+		</ul>
+	</div>
+</section>
+
+<section class="card section-highlight-secondary get-started">
+	<h1>Get Started</h1>
+	<a href="/blog/"><input type="button" class="button" value="Build Better Music"></a>
+</section>
+
+<section class="card section-secondary-color">
+	<h4>Blog Posts Optimized for Learning</h4>
+	<br>
+	<img src="/assets/graphics/computer.svg" alt="" class="center-image">
+	<p></p>
+</section>
+
+{% for post in site.posts limit: 1 %}
+<section class="card">
+	<img src="{{ post.image }}" alt="{{ post.title }}">
+	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+	<p class="postInfo">{{ post.time }} | {{ post.author }}</p>
+	{{ post.excerpt }}
+	<form action="{{ post.url }}" class="continueReading"><input type="submit" class="button-dark" value="Continue Reading"></form>
+</section>
+{% endfor %}

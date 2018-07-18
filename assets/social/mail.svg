@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="53.387405mm"
+   height="42.979912mm"
+   viewBox="0 0 189.16797 152.29103"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
+   sodipodi:docname="Mail.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.1941189"
+     inkscape:cx="-0.038661665"
+     inkscape:cy="78.68608"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1440"
+     inkscape:window-height="855"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-131.48438,-300.17969)">
+    <path
+       style="fill:#3c91e6;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 146.4707,300.17969 c -0.56028,0 -1.11031,0.0344 -1.65429,0.0937 l 81.27148,63.26562 81.21094,-63.26953 c -0.53636,-0.0576 -1.08066,-0.0898 -1.63281,-0.0898 l -159.19532,0 z m 174.18164,15.04101 -87.03125,67.80469 a 10.001,10.001 0 0 1 -9.43945,3.08008 10.001,10.001 0 0 1 -5.32422,-2.84961 l -87.37304,-68.01563 0,122.24415 c 0,8.30205 6.68426,14.98632 14.98632,14.98632 l 159.19532,0 c 8.30207,0 14.98632,-6.68428 14.98632,-14.98632 l 0,-122.26368 z"
+       id="rect4200"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
