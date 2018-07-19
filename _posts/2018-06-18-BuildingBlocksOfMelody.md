@@ -6,7 +6,7 @@ time: July 16, 2018
 author: Nick Mazuk
 ---
 
-Writing melodies may seem like an ambigious and abstract skill to learn, but writing effective melodies are quite simple.
+Writing melodies may seem like an ambiguous and abstract skill to learn, but the techniques for  writing effective melodies are quite simple.
 
 Like many things, melodies are made up of a bunch of smaller building blocks. And when you learn how to write these small building blocks, you can simply start to piece the entire melody together.
 
@@ -26,7 +26,7 @@ First of all, notice that the entire eight measure structure is called a period.
 
 Next, notice how the period is broken up: into two phrases. The phrases are in turn broken up into two motives, which are broken up into measures. Isn’t this structure nice? If you start with eight measures, just keep breaking everything in half and you eventually get the building blocks of a melody.
 
-{% include quiz.html quizid="motiveCount" answer="2" question="How many meausres make up a motive?" options="1 | 2 | 3 | 4 | 8" explanation="A motive is two measures long. That's because a melody is 8 measures long and there are 4 motives in a melody." %}
+{% include quiz.html quizid="motiveCount" answer="2" question="How many measures make up a motive?" options="1 | 2 | 3 | 4 | 8" explanation="A motive is two measures long. That's because a melody is 8 measures long and there are 4 motives in a melody." %}
 
 What this also means is that we don’t have to think of a melody as a gigantic eight measure chunk of music. We can instead start small with motives and combine elements until we create an eight measure melody.
 
