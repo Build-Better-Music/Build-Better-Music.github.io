@@ -3,6 +3,8 @@ layout: page
 title: Blog
 ---
 
+{% include smallSubscribe.html %}
+
 {% for post in site.posts %}
 	<section class="card card-left">
 		<img src="{{ post.image }}" alt="{{ post.title }}">
@@ -12,5 +14,3 @@ title: Blog
 		<form action="{{ post.url }}" class="continueReading"><input type="submit" class="button-dark" value="Continue Reading"></form>
 	</section>
 {% endfor %}
-
-{% include smallSubscribe.html %}

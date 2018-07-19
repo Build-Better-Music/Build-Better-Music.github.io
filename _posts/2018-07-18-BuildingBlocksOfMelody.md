@@ -66,7 +66,7 @@ And of course, this structure isn't limited to classical music. Here's a few exa
 
 ## Conclusion
 
-Now that you know the basic building blocks of a melody, you can simply learn how to writing motives and then build them into a melody. Luckily, that's the topic for the next couple posts.
+Now that you know the basic building blocks of a melody, you can simply learn how to writing motives and then build them into a melody. Luckily, that's the topic [for the next couple posts](/blog/WritingMotives).
 
 But for now, get some practice breaking down melodic structures by getting the free accompanying worksheet below. If you are already a subscriber, the worksheet is in your inbox.
 
