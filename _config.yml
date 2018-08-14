@@ -4,3 +4,4 @@ permalink: /blog/:title
 show_drafts: false
 plugins:
 - jekyll-redirect-from
+- jekyll-autoprefixer
