@@ -54,13 +54,13 @@ These building blocks guide listeners through the melody.
 
 And of course, this structure isn't limited to classical music. Here's a few examples from more popular music that use this structure as well. Try to identify the structure.
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/fJ9rUzIMcZQ?rel=0&amp;start=60" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+{% include youtube.html url="fJ9rUzIMcZQ" start="60"%}
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xIx_HbmRnQY?rel=0&amp;start=58" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+{% include youtube.html url="xIx_HbmRnQY" start="58"%}
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/99Op1TaXmCw?rel=0&amp;start=11" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+{% include youtube.html url="99Op1TaXmCw" start="11"%}
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/fRyhqobl0sk?rel=0&amp;start=57" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+{% include youtube.html url="fRyhqobl0sk" start="57"%}
 
 {% include quiz.html quizid="allIWantForChristmas" answer="2" question="What was different about that last melody?" options="There were twice as many motives | The motives were twice as long | Nothing. That's a trick question." explanation="The entire structure is twice as long. Proportionately, everything is the same." %}
 
