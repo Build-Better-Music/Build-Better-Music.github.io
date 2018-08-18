@@ -6,7 +6,7 @@ author: Nick Mazuk
 time: August 14, 2018
 ---
 
-So now you have your motives written.
+So now [you have your motives written](/blog/WritingMotives).
 
 But how do you organize them?
 

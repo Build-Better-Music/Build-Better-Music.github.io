@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fundamentals of Music Composition
+title: 6 Fundamentals of Music Composition
 image: /assets/blogPhotos/melody/yellow.svg
 author: Nick Mazuk
 time: August 14, 2018
@@ -26,7 +26,9 @@ As you listen to the first couple minutes of Beethoven's 7th, movement 2 (above)
 
 It's the part of a piece or song that you sing. It's how you verbally share songs. It's also probably one of the least studied areas of composition. Mastering melody is can set you leagues ahead of other composers.
 
-### Counterpoint
+See [my guide to writing melodies here](/blog/BuildingBlocksOfMelody).
+
+## Counterpoint
 
 Counterpoint is what forms when two or more melodic ideas happen at the same time. Moreover, these lines are meant to work together.
 

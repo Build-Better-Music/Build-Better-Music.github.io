@@ -46,4 +46,4 @@ The essense of building a melody up from here is to simply put the building bloc
 
 Now there is more than randomly combining motives. Because afterall, we want clear, coherent, and memorable melodies.
 
-Until next time, you should get some practice writing motives without thinking by getting the free accompanying worksheet below. If you are already a subscriber, the worksheet is in your inbox.
+Until [next time](/blog/MotiveNames), you should get some practice writing motives without thinking by getting the free accompanying worksheet below. If you are already a subscriber, the worksheet is in your inbox.
