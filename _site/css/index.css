@@ -10,6 +10,4 @@ nav { z-index: 1; position: fixed; width: 100vw; top: 0; }
 
 .spacer { margin-top: calc(100vh + 2em); }
 
-ul { list-style-image: url("/assets/graphics/checkmark.svg"); }
-
 .get-started { text-align: center; }

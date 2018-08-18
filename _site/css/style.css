@@ -31,6 +31,8 @@ h6 > a { color: inherit; text-decoration: inherit; }
 
 p, ul, ol { font-size: 1.25em; }
 
+ul.checkmark { list-style-image: url("/assets/graphics/checkmark.svg"); }
+
 nav { background-color: #3C91E6; display: flex; align-items: center; justify-content: center; padding: 1em 0; font-size: 1.125em; color: white; }
 
 nav .container { width: 1000px; }
@@ -172,3 +174,5 @@ label { font-size: 1.25em; }
 .quiz { border-top: 2px solid lightgray; border-bottom: 2px solid lightgray; padding: 2em 0; }
 
 blockquote { color: gray; border-left: 2px solid lightgray; margin-left: 0; padding-left: 2em; }
+
+.subscribe { background-image: url("/assets/branding/subscribe.svg"); background-position: right center; background-repeat: no-repeat; background-size: cover; }

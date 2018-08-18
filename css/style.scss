@@ -55,6 +55,10 @@ p, ul, ol {
 	font-size: 1em * $font-scaling;
 }
 
+ul.checkmark {
+	list-style-image: url("/assets/graphics/checkmark.svg");
+}
+
 nav {
 	background-color: $primary-color;
 	display: flex;
@@ -469,4 +473,11 @@ blockquote {
 	border-left: $standard-border;
 	margin-left: 0;
 	padding-left: $card-padding;
+}
+
+.subscribe {
+	background-image: url("/assets/branding/subscribe.svg");
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
