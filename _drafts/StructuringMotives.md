@@ -35,7 +35,7 @@ You can organize them any way you would like, as long as you follow two simple r
 - You must vary either *a* or *b* before you can add a *c*
 - The exact same motive cannot be repeated 3 times in a row
 
-For the first rule, that essentially rules out structures like *a b c a&prime*, because there is a *c* before either *a&prime;* or *b&prime;*.
+For the first rule, that essentially rules out structures like *a b c a&prime;*, because there is a *c* before either *a&prime;* or *b&prime;*.
 
 The second just means you cannot have *a b b b*, *a a a b*, or *a a&prime; a&prime; a&prime;*.
 

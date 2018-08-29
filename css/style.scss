@@ -53,6 +53,7 @@ $heading-scale: 0.5; // amount of px headings grow from h6 to h1
 
 p, ul, ol {
 	font-size: 1em * $font-scaling;
+	line-height: 1.5;
 }
 
 ul.checkmark {
@@ -259,6 +260,15 @@ nav a {
 
 %card > section + section {
 	margin-top: -2 * $card-padding;;
+}
+
+.card table {
+	width: 100%;
+	font-size: $base-font-size;
+}
+
+.card table td {
+	text-align: center;
 }
 
 .section-transparent {

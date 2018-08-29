@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 6 Fundamentals of Music Composition
-image: /assets/blogPhotos/melody/yellow.svg
+image: /assets/blogPhotos/harmony/yellow.svg
 author: Nick Mazuk
 time: August 14, 2018
 ---
