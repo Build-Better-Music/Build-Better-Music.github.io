@@ -3,7 +3,7 @@ layout: post
 title: "Melodies: Creating High/Low Note Climaxes"
 image: /assets/blogPhotos/melody/yellow.svg
 author: Nick Mazuk
-time: August 23, 2018
+time: August 31, 2018
 ---
 
 If you ever want to understand how to write a good melody, you have to learn how to write this type of [climax](/blog/4WaysToAddMeaningToYourMelody).
@@ -32,7 +32,7 @@ Just like stories where there is constant tension and release (but overall the t
 
 As you try to incorporate this into your writing, [think of each motive as a little mini melody](/blog/FractalMelodies). Where is the high point in your motive? Is each successive motive slightly higher?
 
-> Pro tip: Don't simply make each motive higher. Add more range to the motive. If the first motive encompases a 5th, the next should encompass a 6th or larger.
+> Pro tip: Don't simply make each motive higher. Add more range to the motive. If the first motive encompasses a 5th, the next should encompass a 6th or larger.
 
 ## The Placement
 
@@ -49,7 +49,7 @@ One of the keys to a great melody is to make sure that the climax does not feel 
 1. Keep your climax off the downbeat
 2. Make your high note be on an off beat
 
-Here's an example of both of these princples.
+Here's an example of both of these principles.
 
 ![Beethoven Violin Sonata](/blog/resources/beethovenViolinSonata.png "Beethoven Violin Sonata"){:.center-image}
 

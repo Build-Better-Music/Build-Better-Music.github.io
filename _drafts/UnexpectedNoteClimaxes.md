@@ -3,7 +3,7 @@ layout: post
 title: "Melodies: Create Unexpected Note Climaxes"
 image: /assets/blogPhotos/melody/blue.svg
 author: Nick Mazuk
-time: August 23, 2018
+time: August 31, 2018
 ---
 
 There are a multitude of techniques to creating [climaxes in melody](/blog/4WaysToAddMeaningToYourMelody). And the more techniques you have in your toolkit, the more variety you'll get and the more nuanced your melodies.

@@ -3,7 +3,7 @@ layout: post
 title: 4 Ways Increase Pitch Variety in Your Melody
 image: /assets/blogPhotos/melody/green.svg
 author: Nick Mazuk
-time: August 23, 2018
+time: August 31, 2018
 ---
 
 After writing dozens or hundreds of melodies, you'll start to notice particular patterns. Especially when it comes to the pitches.
@@ -68,21 +68,21 @@ Here are just a few scales to explore:
 
 While the first two ways involves learning new scales, this method focuses on adding new notes to a scale you are already using.
 
-Leadings are simply notes that resolve to another note by half step. They can be either higher or lower.
+Leading tones are simply notes that resolve to another note by half step. They can be either higher or lower.
 
 They work especially well with large leaps to either contextualize or emphasize the leaps. Here's how to do it.
 
-Take a melody you already have with a large leap. You are going to write two varients of the leap. One with a leading tone below, and one with a leading tone from above. Like below.
+Take a melody you already have with a large leap. You are going to write two variants of the leap. One with a leading tone below, and one with a leading tone from above. Like below.
 
 ![Leading Tones](/blog/resources/leadingTones.png "Leading Tones"){:.center-image}
 
 It also works if you have a large downwards leap.
 
-> Pro tip: Using leading tones works really well to create [unexpected note climaxes](/blog/UnexpectedNoteClimaxes), esspecially when combined with a [large interval climax](/blog/IntervalicClimaxes#the-secret-behind-large-intervals)
+> Pro tip: Using leading tones works really well to create [unexpected note climaxes](/blog/UnexpectedNoteClimaxes), especially when combined with a [large interval climax](/blog/IntervalicClimaxes#the-secret-behind-large-intervals)
 
 ## 4. Begin on Dissonance
 
-If you want to be different than 95% of all other composers, experiment with melodies starting on a dissonance.
+If you want to be different from 95% of all other composers, experiment with melodies starting on a dissonance.
 
 {% include youtube.html url="2elNwFZ6HFM" start="167" %}
 

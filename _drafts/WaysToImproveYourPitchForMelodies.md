@@ -3,7 +3,7 @@ layout: post
 title: Ways To Improve Your Pitch Content For Melodies
 image: /assets/blogPhotos/melody/blue.svg
 author: Nick Mazuk
-time: August 23, 2018
+time: August 31, 2018
 ---
 
 There are so many different aspects of melody that it can be difficult to work on all of them at once.

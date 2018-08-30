@@ -3,7 +3,7 @@ layout: post
 title: Ways to Improve Your Rhythmic Content for Melodies
 image: /assets/blogPhotos/melody/blue.svg
 author: Nick Mazuk
-time: August 23, 2018
+time: August 31, 2018
 ---
 
 Rhythm is one of the least looked at aspects in melody writing because there are so many things to learn.

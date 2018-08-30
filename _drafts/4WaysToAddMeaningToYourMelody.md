@@ -3,7 +3,7 @@ layout: post
 title: 4 Ways to Add Meaning to Your Melody
 image: /assets/blogPhotos/melody/green.svg
 author: Nick Mazuk
-time: August 23, 2018
+time: August 31, 2018
 ---
 
 So you've written several melodies, but you can't figure out how to make a melody that has any meaning?

@@ -3,10 +3,10 @@ layout: post
 title: "Fractal Melodies: How to Litter Your Melody with Repetition and Variation"
 image: /assets/blogPhotos/melody/red.svg
 author: Nick Mazuk
-time: August 23, 2018
+time: August 31, 2018
 ---
 
-The key to making interesting melodies is repetition and variation. We've talked a lot about repitition and ways to add variety to your melody. But 8 measures it not a ton of space.
+The key to making interesting melodies is repetition and variation. We've talked a lot about repetition and ways to add variety to your melody. But 8 measures it not a ton of space.
 
 Especially if you follow my guide to structuring melodies with motives. You'll only get 4 motives!
 
@@ -18,7 +18,7 @@ And it's a simple tool that will allow you to pack even more repetition and vari
 
 ## What is a Fractal?
 
-In math, a fractal is a shape that is self similar on several different scales.
+In math, a fractal is a shape that is self-similar on several different scales.
 
 This means, if you zoom in, the resulting image looks a lot like the original shape.
 
@@ -68,7 +68,7 @@ We still get a recognizable form: *a b a&prime; b&prime;*. And the same can be a
 
 Isn't this cool? More importantly, do you see how this relates to fractals?
 
-On every scale, the form of the motives/fragments form a recogizable and valid structure for our melodies. The only time he breaks this rule is at the very end on the smallest level (*a a a a&prime;*). Other than that, it looks just like a fractal.
+On every scale, the form of the motives/fragments form a recognizable and valid structure for our melodies. The only time he breaks this rule is at the very end on the smallest level (*a a a a&prime;*). Other than that, it looks just like a fractal.
 
 ## That's great. How Can I Use This?
 

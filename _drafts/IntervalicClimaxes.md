@@ -3,7 +3,7 @@ layout: post
 title: "Melodies: Create Climaxes with Intervalic Tension"
 image: /assets/blogPhotos/melody/green.svg
 author: Nick Mazuk
-time: August 23, 2018
+time: August 31, 2018
 ---
 
 You've probably heard about certain intervals being more dissonant when those two notes are played.

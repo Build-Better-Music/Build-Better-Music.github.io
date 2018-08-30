@@ -3,7 +3,7 @@ layout: post
 title: Structuring Motives
 image: /assets/blogPhotos/melody/yellow.svg
 author: Nick Mazuk
-time: August 15, 2018
+time: August 31, 2018
 ---
 
 If you've been following up to this point, you have the following skills:

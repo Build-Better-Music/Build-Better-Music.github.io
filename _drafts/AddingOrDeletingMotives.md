@@ -3,12 +3,12 @@ layout: post
 title: Adding or Deleting Motives
 image: /assets/blogPhotos/melody/blue.svg
 author: Nick Mazuk
-time: August 23, 2018
+time: August 31, 2018
 ---
 
-Though 8-measure motives are the way you should really learn to start writing melodies, relying on that structure can make your music extremely repetatitve.
+Though 8-measure motives are the way you should really learn to start writing melodies, relying on that structure can make your music extremely repetitive.
 
-And repetative is boring.
+And repetitive is boring.
 
 You want interesting music. And to do that, you need to vary the lengths of your melodies. This can be done two ways; you can either alter the length of your motives, or you can alter the number of motives in your melody.
 
@@ -18,13 +18,13 @@ So in this post, we are going to look at some of the ways in which you can add i
 
 ## Adding Motives
 
-This almost always done by repeating motives. Sometimes, even verbatum.
+This almost always done by repeating motives. Sometimes, even verbatim.
 
 {% include youtube.html url="gf2roj0D3WM" start="31" %}
 
-The basis for the *Imperial March* melody is simply that he repeats the last two motives with a slight variation at the end. This specific technique has occured for literally centuries.
+The basis for the *Imperial March* melody is simply that he repeats the last two motives with a slight variation at the end. This specific technique has occurred for literally centuries.
 
-{% include quiz.html quizid="structure" answer="2" question="What is the structure of this melody?" options="<em>a a&prime; b c</em> | <em>a a&prime; b c b c&prime;</em> | <em>a a&prime; b b&prime;</em> | <em>a b b&prime;</em>" explanation="It's just like a normal 4 motive melody expect the last 2 motives are repated. Each motive is still 2 measures. The last motive is slighly altered to give more closure at the end." %}
+{% include quiz.html quizid="structure" answer="2" question="What is the structure of this melody?" options="<em>a a&prime; b c</em> | <em>a a&prime; b c b c&prime;</em> | <em>a a&prime; b b&prime;</em> | <em>a b b&prime;</em>" explanation="It's just like a normal 4 motive melody expect the last 2 motives are repeated. Each motive is still 2 measures. The last motive is slightly altered to give more closure at the end." %}
 
 The alternative is deleting motives.
 
@@ -42,7 +42,7 @@ Deleting motives can be as simple as deleting them. If the context is appropriat
 
 *The key is making sure that the remaining motives are the motives that define the melody the most*.
 
-In this specific case, the most memorable parts of the bridge are the beginning and the ending. Therefore, that's what Alan Silvestri chose to include in this highly shortened verion.
+In this specific case, the most memorable parts of the bridge are the beginning and the ending. Therefore, that's what Alan Silvestri chose to include in this highly shortened version.
 
 ## Now What?
 

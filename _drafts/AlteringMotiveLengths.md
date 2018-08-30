@@ -3,12 +3,12 @@ layout: post
 title: 3 Ways to Alter Motive Lengths
 image: /assets/blogPhotos/melody/red.svg
 author: Nick Mazuk
-time: August 23, 2018
+time: August 31, 2018
 ---
 
 8 measure melodies can get boring. Especially if you write them all the time.
 
-This comes from their inate sense of predictability. Compelling composition constantly seeks to create expectations and then defy them. So if you are always writing 8 measure melodies, you are never defying expectations!
+This comes from their innate sense of predictability. Compelling composition constantly seeks to create expectations and then defy them. So if you are always writing 8 measure melodies, you are never defying expectations!
 
 That's why you need to vary the [structure of your melody](/blog/BuildingBlocksOfMelody). And one way to do that is altering the lengths of your motives.
 

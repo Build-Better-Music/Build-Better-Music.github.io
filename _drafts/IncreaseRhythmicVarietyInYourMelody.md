@@ -3,7 +3,7 @@ layout: post
 title: Increase Rhythmic Variety in Your Melody
 image: /assets/blogPhotos/melody/red.svg
 author: Nick Mazuk
-time: August 23, 2018
+time: August 31, 2018
 ---
 
 When you first start writing melodies, you'll likely fall into a rhythmic rut. You just keep writing the same rhythmic fragments over and over again.
@@ -26,7 +26,7 @@ You will never be able to write music outside of the styles that you listen to. 
 
 Once you listen, then analyze the music. Figure out what makes it interesting, and then try writing something that uses that.
 
-Okay, enough of the aside. Let's look at rhythmic techniques that you can employ now (which by the way, I use these because I listened).
+Okay, enough of the aside. Let's look at rhythmic techniques that you can employ today (which by the way, I use these because I listened).
 
 ## The Keys to Syncopation
 
@@ -43,7 +43,7 @@ But there are two keys that will help take your syncopation to the next level:
 - Syncopation is the anticipation of the next beat
 - Syncopation requires notes on the beat
 
-The first key tells us that any syncopation will feel like the next beat came early. That's how it creats energy. This means that you can easily make a melody syncopated by shifting some notes half a beat early.
+The first key tells us that any syncopation will feel like the next beat came early. That's how it creates energy. This means that you can easily make a melody syncopated by shifting some notes half a beat early.
 
 ![Freres Jacques Original](/blog/resources/nonSyncopatedMelody.png "Freres Jacques Original"){:.center-image}
 
@@ -61,7 +61,7 @@ That's where tuplets come in!
 
 Tuplets like triplets change the subdivision of a beat to give each beat a new feel. The rhythm cannot simply fit into a box. Tuplets change the box.
 
-It's the difference between 12/8 and 4/4. They have the same number of beats, the strong and week beats, but different internal subdivisions.
+It's the difference between 12/8 and 4/4. They have the same number of beats, the strong and weak beats, but different internal subdivisions.
 
 The key here is that simple triplets aren't enough to add tons of variety nowadays. Switching between 8th notes and 8th note triplets is so commonplace that we hardly flinch when there is a switch between the two.
 

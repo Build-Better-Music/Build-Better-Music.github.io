@@ -3,14 +3,14 @@ layout: post
 title: "Melodies: Create Rhythmic Climaxes"
 image: /assets/blogPhotos/melody/yellow.svg
 author: Nick Mazuk
-time: August 23, 2018
+time: August 31, 2018
 ---
 
 When creating a [climax for a melody](/blog/4WaysToAddMeaningToYourMelody), it can become very tempting to talk about pitch.
 
 However, the rhythm is equally important. And if you plan it right, the rhythm can completely carry the climax. Because rhythm is so instinctual and subtle, often times its effectiveness comes from the fact that listeners won't know that rhythm was the cause.
 
-So for this post, we are going to disect two of the key ways to create a convincing rhythmic climax.
+So for this post, we are going to dissect two of the key ways to create a convincing rhythmic climax.
 
 <!--end-of-intro-->
 
@@ -37,11 +37,11 @@ But there's another, more subtle way in which each of these is intense.
 
 Right before the release of tension, there is some non-regular rhythm. I don't necessarily mean something like a 9-tuplet. But rather something that doesn't line up with what was before.
 
-{% include quiz.html quizid="nonregularrhythm" answer="3" question="Right before 0:43 above, how many forms of non-regular rhythm are used?" options="1 | 2 | 3 | 4" explanation="There, there is a series of rhythmic changes that add intensity. Firstly, the accents are thrown off the beats. Sometimes they move to the offbeat. Others just a 16th note off from the beat. Importantly, there is no pattern for the changing accents. Secondly, there is a long string of triplets. Before, the beats were divided nicely into 16th notes. So when there is a string of triplets, you get thrown off. Finally, right before the release of tension, there is a pause. Within a string of ever increasing rhythm, a rest throws everything off." %}
+{% include quiz.html quizid="nonregularrhythm" answer="3" question="Right before 0:43 above, how many forms of non-regular rhythm are used?" options="1 | 2 | 3 | 4" explanation="There, there is a series of rhythmic changes that add intensity. Firstly, the accents are thrown off the beats. Sometimes they move to the offbeat. Others just a 16th note off from the beat. Importantly, there is no pattern for the changing accents. Secondly, there is a long string of triplets. Before, the beats were divided nicely into 16th notes. So when there is a string of triplets, you get thrown off. Finally, right before the release of tension, there is a pause. Within a string of ever-increasing rhythm, a rest throws everything off." %}
 
 Each of these are ways in which there is non-regular rhythm.
 
-Becuase the listener keeps getting thrown off, the tension increases.
+Because the listener keeps getting thrown off, the tension increases.
 
 ## Can This Work For "Real" Melodies
 
