@@ -41,7 +41,7 @@ Let's take a quick look at how each of these are used in *Binary Sunset* from *S
 
 ## Climaxes in Melody
 
-[INSERT TRANSCRIPTION OF MELODY]
+![Binary Sunset](/blog/resources/binarySunset.png "Binary Sunset"){:.center-image}
 
 Perhaps the most obvious form of climax is that of the high point in this melody. In measure 6, we reach a high G. This obviously sounds like the climax when you listen to it, and that is exactly where John Williams places the high note.
 
@@ -51,7 +51,7 @@ Then you'll notice that the harmony is an E&#9837; major chord. This isn't terri
 
 Finally, you'll notice that as the melody goes on, the size of the intervals gradually increases. Larger intervals are generally more tense, so as the melody finally reaches an interval of an octave, it has a sense of propulsion. The full downwards octave causes a sense of release from all the intervallic tension that was built.
 
-[INSERT INTERVAL ANALYSIS OF MELODY]
+![Binary Sunset Intervals](/blog/resources/binarySunsetIntervals.png "Binary Sunset Intervals"){:.center-image}
 
 ## Parting Notes, Literally
 

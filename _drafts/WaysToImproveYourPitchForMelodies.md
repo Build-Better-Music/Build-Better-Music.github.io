@@ -20,13 +20,13 @@ The first way you should always practice when improving pitch is writing pitch l
 
 Here's an example of a pitch line.
 
-[INSERT PITCH LINE]
+![Pitch Line](/blog/resources/pitchLineOriginal.png "Pitch Line"){:.center-image}
 
 As you do this, tweak, add, or delete notes to make the pitch content stronger. Use different techniques that we've talked about, including the [magic moving note](/blog/MagicMovingNote), [new scales](/blog/IncreasePitchVarietyInYourMelody#2-explore-new-scales), [unexpected notes](/blog/UnexpectedNoteClimaxes), [using new modes](/blog/IncreasePitchVarietyInYourMelody#1-unlock-new-notes-with-modes), [beginning on dissonances](/blog/IncreasePitchVarietyInYourMelody#4-begin-on-dissonance), internal resolutions, delayed resolutions, and [leading tones](/blog/IncreasePitchVarietyInYourMelody#3-use-leading-tones-to-increase-tension).
 
-As you do this, start by focusing on one technique of improving your pitch. Let's say internal resolututions. Then, modify your pitch line only to have better internal resolutions. For instance, you might change the pitch line from above into this.
+As you do this, start by focusing on one technique of improving your pitch. Let's say magic moving note. Then, modify your pitch line only to have better internal resolutions. For instance, you might change the pitch line from above into this.
 
-[INSERT PITCH LINE INTERNAL RESOLUTION]
+![Pitch Line Improved](/blog/resources/pitchLineImproved.png "Pitch Line Improved"){:.center-image}
 
 Repeat this several times with several pitch lines. Then, focus on a new technique, like using leading tones. Write several new pitch lines focusing on improving your use of leading tones. Then focus on new technique. Repeat.
 
@@ -50,13 +50,17 @@ That is why it's useful to also practice pitch with a rhythm. Here's the process
 2. Write pitches to each note without changing the rhythm at all
 3. Improve the pitches with the skills you learned writing pitch lines
 
-This is each step of a sample that I wrote.
+This is each step of a sample that I wrote, trying to begin on a dissonance for the improved melody.
 
-[INSERT RHYTHM]
+![Rhythm Melody](/blog/resources/rhythmMelody.png "Rhythm Melody"){:.center-image}
 
-[INSERT RHYTHM WITH PITCH]
+Pitch Added:
 
-[INSERT RHYHTM WITH IMPROVED PITCH]
+![Rhythm Melody With Pitch](/blog/resources/rhythmWithPitch.png "Rhythm Melody With Pitch"){:.center-image}
+
+Starting on Dissonance:
+
+![Rhythm Melody With Improved Pitch](/blog/resources/rhythmMelodyPitchImproved.png "Rhythm Melody With Improved Pitch"){:.center-image}
 
 ## Getting Started
 

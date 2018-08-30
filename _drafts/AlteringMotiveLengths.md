@@ -52,7 +52,7 @@ The third and final way is to simply cut out a measure from a motive. This works
 
 Take a look at this melody from one of the pieces I wrote, *Bucolic Songs*:
 
-[INSERT BUCOLIC SONGS MELODY]
+![Bucolic Songs Melody](/blog/resources/bucolicSongsMelody.png "Bucolic Songs Melody"){:.center-image}
 
 The second motive is simply an *a&prime;*, so instead of repeating the motive in full, I cut out the second half. This keeps the melody moving forwards. Because the motivic structure is speeding up, it creates extra energy.
 

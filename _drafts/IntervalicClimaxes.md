@@ -34,13 +34,13 @@ Here are some of the rules for a singable melody.
 
 These rules date back to the Renaissance. However, it's not then, so you can break these rules in instrumental writing.
 
-In fact, to create intervalic tension, you need to break these rules.
+In fact, to create intervallic tension, you need to break these rules.
 
 And notice this, large intervals like the M6, 7th, 9th, 10th, etc. are not allowed with these rules. And if these rules are about creating singable melodies, then adding large intervals creates tension because it's hard to sing.
 
 If you read the post on climaxes in melody, you will remember me using *Binary Sunset* as the example there. Here it is again. This time, though, as an exercise, try finding all the places in which John Williams breaks these rules. Then, try to find all the places he abides by them. Finally, ask yourself why is this melody so effective? And why does he break the rules when he does?
 
-[INSERT BINARY SUNSET MELODY]
+![Binary Sunset](/blog/resources/binarySunset.png "Binary Sunset"){:.center-image}
 
 {% include quiz.html quizid="breaksrules" answer="6" question="How many times does John Williams break one of the above rules in this melody?" options="1 | 2 | 4 | 7 | 8 | 9 | 12" explanation="He breaks these rules 9 unique times. Why can he get away with breaking these rules? Each instance has a very specific reason." %}
 
@@ -52,9 +52,9 @@ Firstly, the placement of the interval matter as well. For instance, the P5 is a
 
 However, what happens if you go from 3&#770; to 7&#770; (7&#770; being the leading tone and having tension in and of itself)?
 
-That's exaclty what Brahms does in his *Cradle Song*, a melody which you've probably heard dozens of times.
+That's exactly what Brahms does in his *Cradle Song*, a melody which you've probably heard dozens of times.
 
-[INSERT CRADLE SONG WITH INTERVALS]
+![Cradle Song with Intervals](/blog/resources/cradleSongIntervals.png "Cradle Song with Intervals"){:.center-image}
 
 There are two things going on. First is that he used the interval to a note full of tension (7&#770;). Second he used increasingly larger intervals until the climactic interval.
 
@@ -71,7 +71,7 @@ Another way to create tension through intervals is to have dissonant intervals. 
 
 Usually, these intervals will require accidentals when in a diatonic scale (not between 4&#770; and 7&#770;).
 
-Because dissonance is tension, you can use these dissonant intervals to create tension for a release. Simply place this interal at the climax and you can create a convincing climax.
+Because dissonance is tension, you can use these dissonant intervals to create tension for a release. Simply place this interval at the climax and you can create a convincing climax.
 
 ## Combining Dissonant Intervals with Unexpected Notes For More Power
 
@@ -79,6 +79,6 @@ One powerful way to create a climax with a dissonant interval is to combine it w
 
 Furthermore, the example I wrote for the unexpected note climax melody actually is also an example of a dissonant interval climax. [Go check it out](/blog/UnexpectedNoteClimaxes) to see it how to combine both.
 
-In the meantime, download the free worksheet below to get practice writing intervalic climaxes. It will give you practice opportunities with each of the ways to create a climax through an interval. If you are already a subscriber, the worksheet is in your inbox.
+In the meantime, download the free worksheet below to get practice writing intervallic climaxes. It will give you practice opportunities with each of the ways to create a climax through an interval. If you are already a subscriber, the worksheet is in your inbox.
 
 Happy writing!

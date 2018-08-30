@@ -45,7 +45,9 @@ But there are two keys that will help take your syncopation to the next level:
 
 The first key tells us that any syncopation will feel like the next beat came early. That's how it creats energy. This means that you can easily make a melody syncopated by shifting some notes half a beat early.
 
-[INSERT SYNCOPATED VS NON SYNCOPATED MELODY]
+![Freres Jacques Original](/blog/resources/nonSyncopatedMelody.png "Freres Jacques Original"){:.center-image}
+
+![Freres Jacques Syncopated](/blog/resources/syncopatedMelody.png "Freres Jacques Syncopated"){:.center-image}
 
 The second key explains that some notes need to be on the beat for the off beats to feel syncopated. Why is that?
 
@@ -73,7 +75,7 @@ So a melody can be littered with rests!
 
 Here is a melody that is mainly rests:
 
-[INSERT MELODY WITH RESTS]
+![Barber of Seville](/blog/resources/melodyWithRests.png "Barber of Seville"){:.center-image}
 
 ## Just Change the Time Signature
 

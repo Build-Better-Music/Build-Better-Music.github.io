@@ -22,15 +22,15 @@ In math, a fractal is a shape that is self similar on several different scales.
 
 This means, if you zoom in, the resulting image looks a lot like the original shape.
 
-Check out the Koch triangle. See how each of the smaller segments looks like the original line segment? Fractal!
+Check out the Koch snowflake. See how each of the smaller segments looks like the original line segment? Fractal!
 
-[INSERT KOCH TRIANGLE]
+![Koch Snowflake](/blog/resources/kochSnowflake.png "Koch Snowflake"){:.center-image}
 
 ## Fractals and Music
 
 Perhaps no living composer is better at creating earworms and utilizing fractal melodies than John Williams. Let's look at one of his most iconic melodies from *Indiana Jones*.
 
-[INSERT INDIANA JONES MELODY]
+![Indiana Jones Melody](/blog/resources/indianaJonesMelody.png "Indiana Jones Melody"){:.center-image}
 
 > Note: to understand the rest of this post, you'll need to completely understand my [motivic structures with melodies](/blog/BuildingBlocksOfMelody)
 
@@ -46,11 +46,11 @@ Let's just look at the first 4 measures now. Why don't we apply the concept of f
 
 When you look at it, the first half of the melody is structured *a a&prime; a&Prime; b*. Notice any similarities?
 
-[INSERT FIRST HALF ANALYZED]
+![First Half Analyzed](/blog/resources/indianaJonesFirstFractal.png "First Half Analyzed"){:.center-image}
 
 That's right! The first half of a melody can be structured like an entire melody! Does this also apply to the second half?
 
-[INSERT SECOND HALF ANALYZED]
+![Second Half Analyzed](/blog/resources/indianaJonesSecondFractal.png "Second Half Analyzed"){:.center-image}
 
 It does: *a a&prime; b b&prime;*. What this also tells us is that the structure of the smaller melodies doesn't have to be the same as the entire melody. Just for increased repetition you can organize the subsections as if they were a full melody!
 
@@ -60,11 +60,11 @@ How amazing is that!
 
 We are still analyzing full measures and haven't yet gotten into the individual fragments yet. What if we just look at the first two measures?
 
-[INSERT FIRST TWO MEASURES ANALYZED]
+![First Two Measures Analyzed](/blog/resources/indianaJonesSecondaryFractal.png "First Two Measures Analyzed"){:.center-image}
 
 We still get a recognizable form: *a b a&prime; b&prime;*. And the same can be applied to the entire melody. For the sake of brevity, here is the entire melody analyzed this way.
 
-[INSERT ANALYZED MELODY]
+![Full Melody Analyzed](/blog/resources/indianaJonesFullFractal.png "Full Melody Analyzed"){:.center-image}
 
 Isn't this cool? More importantly, do you see how this relates to fractals?
 

@@ -20,33 +20,33 @@ So how do we fix this?
 
 First let's look at the problem in more detail.
 
-[INSERT PROBLEM MELODY]
+![Original Melody](/blog/resources/movingNoteBad.png "Original Melody"){:.center-image}
 
-Here's a melody that seems quite static. One thing you'll notice is the recurrence of the note D. Because it keeps coming back to D, the melody can't move foreward.
+Here's a melody that seems quite static. One thing you'll notice is the recurrence of the note G. Because it keeps coming back to G, the melody can't move foreward.
 
-Also, notice how several of the measures even sit around D. There are some neighbor tones in m2, and an appoggiatura to it in m4.
+Also, notice how several of the measures even sit around G. There are some neighbor tones in m2-m3, and an appoggiatura to it in m6.
 
-While these techniques of using non-chord tones are great to utilize, the problem is too much of the note D. Let's fix that.
+While these techniques of using non-chord tones are great to utilize, the problem is too much of the note G. Let's fix that.
 
 ## The Solution
 
 Let's quickly strip the melody down to it's bare essentials. In each measure, we are going to leave only the most prominant note. We get something like below.
 
-[INSERT STRIPPED MELODY]
+![Stripped Melody](/blog/resources/movingNoteBadStripped.png "Stripped Melody"){:.center-image}
 
-Now you see what I was saying about so much D?
+Now you see what I was saying about so much G?
 
 {% include quiz.html quizid="stripping" answer="4" question="When you strip a melody, what type of note do you <em>not</em> remove?" options="Non-chord tones | Short notes | Notes that are not an empahsis | The main note in a measure" explanation="Since we are trying to get to the underlying structure, you want to keep any notes that are the main focus. This includes the most prominant notes of each measure. Almost everything else you can discard." %}
 
 But what happens when we move some of these notes around? We'll get something like below.
 
-[INSERT STRIPPED ALTERED MELODY]
+![Fixed Stripped Melody](/blog/resources/movingNoteFixedStripped.png "Fixed Stripped Melody"){:.center-image}
 
 You can see a general arc to the melody now. What the new notes are doesn't matter as much as the fact that notes are changing. Though a nice arc to the melody is always a plus.
 
 Now, I'm just going to add back in all the other notes that we had in the original melody. Except that this time everything will be in relation to our new main notes.
 
-[INSERT NEW MELODY]
+![Fixed Melody](/blog/resources/movingNoteFixed.png "Fixed Melody"){:.center-image}
 
 Much more interesting, right?
 

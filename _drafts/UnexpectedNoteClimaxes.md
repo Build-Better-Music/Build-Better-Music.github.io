@@ -43,9 +43,9 @@ The pattern is the same for an unexpected note. You still want to create some ex
 
 Let's look at this through an example.
 
-[INSERT UNEXPECTED NOTE EXAMPLE]
+![Original Melody](/blog/resources/unexpectedNoteOriginal.png "Original Melody"){:.center-image}
 
-This is our melody before a climax. Notice how there is already some chromaticism. Specifically, there are some [leading tones](/blog/IncreasePitchVarietyInYourMelody#3-use-leading-tones-to-increase-tension) to 2&#770; and 6&#770;.
+This is our melody before a climax. Notice how there is already some chromaticism. Specifically, there are [leading tones](/blog/IncreasePitchVarietyInYourMelody#3-use-leading-tones-to-increase-tension) to 2&#770;, 3&#770;, 5&#770;, and 6&#770;.
 
 To create our unexpected note, we want to break away from what comes before. That gives us two criteria for this example:
 
@@ -60,13 +60,13 @@ Next, we want to scope out a potential spot for the unexpected note. The end of 
 
 Let's see what this looks like.
 
-[INSERT REVISED MELODY]
+![Unexpected Note 1](/blog/resources/unexpectedNote1.png "Unexpected Note 1"){:.center-image}
 
 Of course, there are several other possibilities. Here's two more.
 
-[INSERT ALTERNATIVE 1]
+![Unexpected Note 2](/blog/resources/unexpectedNote2.png "Unexpected Note 2"){:.center-image}
 
-[INSERT ALTERNATIVE 2]
+![Unexpected Note 3](/blog/resources/unexpectedNote3.png "Unexpected Note 3"){:.center-image}
 
 ## How do I Make the Unexpected Note Sound Unforced?
 
@@ -76,7 +76,7 @@ Instead of asking how it can sound unforced, let's take a moment and brainstorm 
 - No increase of tension before the note
 - Not going by step into or out of the note
 
-{% include quiz.html quizid="unforced" answer="1" question="Hmm. That last one is new. But why do you think that is there?" options="The note isn't connected to anything | The note will have some ackward leaps | The note will not fit into the context" explanation="It's because if the unexpected note isn't either approached or left by step, it will not sound connected to the rest of the melody. Steps connect notes together. So if the note has a leap on either side, it will sound disjointed." %}
+{% include quiz.html quizid="unforced" answer="1" question="Hmm. That last one is new. But why do you think that is there?" options="The note isn't connected to anything | The note will have some awkward leaps | The note will not fit into the context" explanation="It's because if the unexpected note isn't either approached or left by step, it will not sound connected to the rest of the melody. Steps connect notes together. So if the note has a leap on either side, it will sound disjointed." %}
 
 As you are writing your melodies, pay attention to these ideas. Because by paying attention to them, you can make your melodies sound more seamless.
 

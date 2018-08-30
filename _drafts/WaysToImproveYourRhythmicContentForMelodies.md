@@ -20,7 +20,7 @@ Here are 2 specific practice techniques that I use to get better rhythm in melod
 
 To start, you are going to write rhythm only melodies. That means no notes, only rhythms.
 
-[INSERT RHYTHM MELODY]
+![Rhythm Melody](/blog/resources/rhythmMelody.png "Rhythm Melody"){:.center-image}
 
 First, let's see the overall process:
 
@@ -40,18 +40,22 @@ Once you have learned many of the techniques for improving your rhythm, you can 
 
 It involves taking a pitch line and then adding rhythm to it. Here's the process below.
 
-[INSERT BEETHOVEN PITCH LINE]
+![Beethoven Pitch Line](/blog/resources/beethovenViolinPitchLine.png "Beethoven Pitch Line"){:.center-image}
 
-[INSERT BEETHOVEN MELODY]
+With the rhythms.
+
+![Beethoven Violin Sonata](/blog/resources/beethovenViolinSonata.png "Beethoven Violin Sonata"){:.center-image}
+
+> Beethoven Violin Sonata 5 Allegro
 
 When doing this, make sure you use every note in the pitch line. Afterall, once you learn to write pitch lines, you know that they can be carefully constructed. Every single note matters.
 
-And after writing the rhythm to a pitch line, make sure to improve on it using the techniques you've learned in the first way. And make sure it sounds coherent, which requires a strong knowlege and skill in motivic structure.
+And after writing the rhythm to a pitch line, make sure to improve on it using the techniques you've learned in the first way. And make sure it sounds coherent, which requires a strong knowledge and skill in motivic structure.
 
 ## Getting Started
 
 That is the basic process for getting better rhythms in melodies. Each technique you learn to master becomes another tool in your toolbox. The more tools you have, the better your writing. And by using these two methods to improve your rhythm, you can add any rhythmic tool to your toolbox.
 
-You now have everything you need to get started. But I can only do so much. It is up to you to actually apply these practice methods. If you would like help using these methods, download the free worksheet below. It will walk you through the proccess step by step for several rhythmic techniques. If you are already a subscriber, the worksheet is in your inbox.
+You now have everything you need to get started. But I can only do so much. It is up to you to actually apply these practice methods. If you would like help using these methods, download the free worksheet below. It will walk you through the process step by step for several rhythmic techniques. If you are already a subscriber, the worksheet is in your inbox.
 
 Happy writing!

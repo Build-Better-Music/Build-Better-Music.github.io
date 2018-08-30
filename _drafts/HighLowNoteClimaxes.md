@@ -22,7 +22,7 @@ Of all the mistakes I've heard (and done myself) with this type of climax, it's 
 
 **You can't simply make a melody climactic by inserting a high note**. You need to build to the high note.
 
-[INSERT STORY ARC]
+![Plot Arc](/blog/resources/plotArc.png "Plot Arc"){:.center-image}
 
 In the [main post on climaxes](/blog/4WaysToAddMeaningToYourMelody), I showed this diagram of a story arc. Your melody must follow this story arc. If you are going for a high note climax, you *must* progressively get higher until you reach the climax. And between each local high point, you *must* give some resolution by going back downwards.
 
@@ -49,9 +49,9 @@ One of the keys to a great melody is to make sure that the climax does not feel 
 1. Keep your climax off the downbeat
 2. Make your high note be on an off beat
 
-Here's two examples of both of these princples.
+Here's an example of both of these princples.
 
-[INSERT UNFORCED CLIMAX EXAMPLES]
+![Beethoven Violin Sonata](/blog/resources/beethovenViolinSonata.png "Beethoven Violin Sonata"){:.center-image}
 
 What both of these will do is make sure that your climax isn't in the expected location.
 

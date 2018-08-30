@@ -44,7 +44,7 @@ So here's all the modes you should try:
 
 All you need to do to get started is take a melody you've written and adjust the required scale degrees. For instance, take a look at how you would make Twinkle, Twinkle Little Star into phrygian.
 
-[INSERT TWINKLE TWINKLE TO PHRYGIAN]
+![Twinkle Twinkle Little Star in Phrygian](/blog/resources/phrygianMelody.png "Twinkle Twinkle Little Star in Phrygian"){:.center-image}
 
 ## 2. Explore New Scales
 
@@ -74,11 +74,9 @@ They work especially well with large leaps to either contextualize or emphasize 
 
 Take a melody you already have with a large leap. You are going to write two varients of the leap. One with a leading tone below, and one with a leading tone from above. Like below.
 
-[INSERT PICTURE OF LEADING TONE THINGS]
+![Leading Tones](/blog/resources/leadingTones.png "Leading Tones"){:.center-image}
 
 It also works if you have a large downwards leap.
-
-[INSERT PICTURE OF LEADING TONE THINGS GOING DOWNWARDS]
 
 > Pro tip: Using leading tones works really well to create [unexpected note climaxes](/blog/UnexpectedNoteClimaxes), esspecially when combined with a [large interval climax](/blog/IntervalicClimaxes#the-secret-behind-large-intervals)
 
