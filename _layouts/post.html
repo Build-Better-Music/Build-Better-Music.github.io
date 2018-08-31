@@ -14,7 +14,7 @@ comments: true
 
 {% include smallSubscribe.html %}
 
-{% assign pdfName = page.title | downcase | remove: " " | append: ".pdf" %}
+{% assign pdfName = page.title | downcase | remove: " " | append: ".pdf" | remove: ":" | remove: "'" | remove: "/" | remove: "-" %}
 
 {% include subscribe.html pdf=pdfName %}
 

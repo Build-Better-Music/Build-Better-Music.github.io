@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 4 Ways Increase Pitch Variety in Your Melody
+title: 4 Ways To Increase Pitch Variety in Your Melody
 image: /assets/blogPhotos/melody/green.svg
 author: Nick Mazuk
 time: August 31, 2018
@@ -82,7 +82,7 @@ It also works if you have a large downwards leap.
 
 ## 4. Begin on Dissonance
 
-If you want to be different from 95% of all other composers, experiment with melodies starting on a dissonance.
+If you want to be different from 95% of all other composers, experiment with melodies starting on a dissonance (make that 99% of other composers).
 
 {% include youtube.html url="2elNwFZ6HFM" start="167" %}
 
@@ -96,6 +96,6 @@ Of course, there are a multitude of other methods including other harmonic syste
 
 But these few tips are a very good starting point to adding pitch variety to your melodies.
 
-If you would like more help, download the free worksheet below. It will help you practice each of the techniques discussed here. If you are already a subscriber, the worksheet is in your inbox.
+If you would like more help, download the free worksheet below. It will give you practice several of the techniques discussed here. If you are already a subscriber, the worksheet is in your inbox.
 
 Happy writing!

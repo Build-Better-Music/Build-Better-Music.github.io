@@ -52,6 +52,6 @@ Each of these tricks are ways you can add variety to your music.
 
 I'd also start practicing these techniques with a melody you've written. Write a simple 8-measure melody and then create 5 variations. For each variation, try to either add or delete motives. Use a variety of methods for each one. This way, you'll start to get comfortable doing this.
 
-If you would like more help, download the free worksheet below. It will walk you through the exact process of analyzing melodies to see which motives they added/deleted and then using that same method in your own melody. If you are already a subscriber, the worksheet is in your inbox.
+If you would like more help, download the free worksheet below. It will get you thinking about how you can balance repetition, variation, and new material when there is not 4 motives. If you are already a subscriber, the worksheet is in your inbox.
 
 Happy writing!

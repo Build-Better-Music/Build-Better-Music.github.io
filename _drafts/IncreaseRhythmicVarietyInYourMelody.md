@@ -99,7 +99,9 @@ Or even 2/3!
 
 > Yes, all those time signatures do exist and have been used. Have you used them?
 
-Getting out of your normal time signature will force you to come up with creative and novel solutions. How else can you ask for more rhythmic variety?
+Getting out of your normal time signature will force you to come up with creative and novel solutions. Even if you never plan to write any of the weird time signatures in a work, simply exploring them will help add more variety to your rhythm. It will make you think about rhythm differently.
+
+How else can you ask for more rhythmic variety?
 
 ## Other Ways
 

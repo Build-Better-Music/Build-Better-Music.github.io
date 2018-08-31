@@ -76,6 +76,6 @@ When I write a melody that I want to be incredibly memorable, I start from the s
 
 But a quick word of caution: **the more repetition you have, the more variation is required**. Therefore, if you start with a really small fragment, you'll need to vary that fragment a lot.
 
-If you would like help learning to write fractal melodies, download the free worksheet below. It will guide you step by step through the entire process from the ground up. If you are already a subscriber, the worksheet is in your inbox.
+If you would like help understanding fractal melodies more, download the free worksheet below. It will give you practice breaking down a melody into it's fractal components. If you are already a subscriber, the worksheet is in your inbox.
 
 Happy writing!
